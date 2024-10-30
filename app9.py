@@ -47,6 +47,10 @@ def get_response(user_input):
     # 대화 이력에 추가
     st.session_state.history.append({"user": user_input, "bot": answer['챗봇']})
 
+
+# 이미지 표시
+st.image("10.png", caption="Welcome to the Restaurant Chatbot", use_column_width=True)
+
 # Streamlit 인터페이스
 st.title("포트폴리오 챗봇")
 st.write("포트폴리오에 관한 질문을 입력해보세요. 예: 포트폴리오 주제가 뭔가요?")
