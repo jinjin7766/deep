@@ -28,9 +28,9 @@ with st.container(): # with 절로 하나의 기능을 하는 코드를 묶어�
         if "processed_video" in st.session_state:  # 사물검출 완료된 비디오가 있으면 
             st.video(st.session_state["processed_video"]) # 그 비디오를 플레이해라 
         else:
-            result_placeholder.markdown( # 빈 막스에 마크다운을 넣게다는 뜻 
+            result_placeholder.markdown( # 빈 박스에 마크다운을 넣게다는 뜻 
                 """
-                <div style='width:100%; height:620px; background-color:#d3d3d3; display:flex; align-items:center; justify-content:center; border-radius:5px;'>
+                <div style='width:100%; height:520px; background-color:#d3d3d3; display:flex; align-items:center; justify-content:center; border-radius:5px;'>
                     <p style='color:#888;'>여기에 사물 검출 결과가 표시됩니다.</p>
                 </div>
                 """,
