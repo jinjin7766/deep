@@ -1,8 +1,8 @@
 <div style="font-family: Arial, sans-serif; margin-top: 30px; text-align: center;">
-  <img src="https://github.com/jinjin7766/Portfolio/blob/main/%EC%A0%88%EB%8F%84%ED%83%90%EC%A7%80_%ED%91%9C%EC%A7%80.png" alt="절도 탐지 프로젝트" style="width: 80%; height: auto; border-radius: 8px; border: 1px solid #d8dee4;">
+  <img src="절도탐지_표지.png" alt="절도 탐지 프로젝트" style="width: 80%; height: auto; border-radius: 8px; border: 1px solid #d8dee4;">
 </div>
 
-## 프로젝트 요약 
+## 프로젝트 요약 [**(PDF 보기)**](./무인점포_절도탐지_프로그램.pdf)
 YOLO 모델을 활용해 무인점포에서 절도 행위를 탐지하기 위한 딥러닝 기반 개발 프로젝트 입니다. 
 
 
